@@ -7,6 +7,7 @@ specifiers:
   postcss-import: ^15.1.0
   postcss-media-minmax: ^5.0.0
   postcss-preset-env: ^8.0.1
+  postcss-simple-vars: ^7.0.1
   vite: ^4.1.0
 
 devDependencies:
@@ -16,6 +17,7 @@ devDependencies:
   postcss-import: 15.1.0_postcss@8.4.21
   postcss-media-minmax: 5.0.0_postcss@8.4.21
   postcss-preset-env: 8.0.1_postcss@8.4.21
+  postcss-simple-vars: 7.0.1_postcss@8.4.21
   vite: 4.1.1
 
 packages:
@@ -989,6 +991,15 @@ packages:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
+    dev: true
+
+  /postcss-simple-vars/7.0.1_postcss@8.4.21:
+    resolution: {integrity: sha512-5GLLXaS8qmzHMOjVxqkk1TZPf1jMqesiI7qLhnlyERalG0sMbHIbJqrcnrpmZdKCLglHnRHoEBB61RtGTsj++A==}
+    engines: {node: '>=14.0'}
+    peerDependencies:
+      postcss: ^8.2.1
+    dependencies:
+      postcss: 8.4.21
     dev: true
 
   /postcss-value-parser/4.2.0:

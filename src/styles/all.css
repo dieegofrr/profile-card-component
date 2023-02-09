@@ -2,7 +2,7 @@
 @import "./colors.css";
 
 main {
-  background-color: var(--dark-cyan);
+  background-color: $dark-cyan;
 
   .ball {
     position: absolute;

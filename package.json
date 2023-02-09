@@ -18,6 +18,7 @@
     "postcss-import": "^15.1.0",
     "postcss-media-minmax": "^5.0.0",
     "postcss-preset-env": "^8.0.1",
+    "postcss-simple-vars": "^7.0.1",
     "vite": "^4.1.0"
   }
 }
