@@ -1,1 +1,20 @@
 @import "./reset.css";
+@import "./colors.css";
+
+main {
+  background-color: var(--dark-cyan);
+
+  .ball {
+    position: absolute;
+  }
+
+  .img-top {
+    right: 50%;
+    bottom: 50%;
+  }
+
+  .img-bottom {
+    left: 50%;
+    top: 50%;
+  }
+}
