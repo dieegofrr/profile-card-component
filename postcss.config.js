@@ -5,6 +5,7 @@ export default {
     'postcss-import': {},
     'postcss-media-minmax': {},
     'postcss-simple-vars': {},
+    'postcss-mixins': {},
     'postcss-preset-env': { stage: 1 }
   }
 };

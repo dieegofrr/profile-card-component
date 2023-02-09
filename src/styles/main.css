@@ -1,11 +1,19 @@
-@import "./reset.css";
-@import "./colors.css";
+@import './_colors.css';
+@import './_mixins.css';
+
+* {
+  @mixin reset;
+}
 
 main {
   background-color: $dark-cyan;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
 
   .ball {
     position: absolute;
+    pointer-events: none;
   }
 
   .img-top {
