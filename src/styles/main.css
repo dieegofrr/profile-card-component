@@ -1,7 +1,9 @@
 @import './_colors.css';
 @import './_mixins.css';
 
-* {
+*,
+*::before,
+*::after {
   @mixin reset;
 }
 
