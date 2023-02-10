@@ -1,0 +1,23 @@
+@import '../modules/colors.css';
+
+main {
+  background-color: $dark-cyan;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  .ball {
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .img-top {
+    right: 50%;
+    bottom: 50%;
+  }
+
+  .img-bottom {
+    left: 50%;
+    top: 50%;
+  }
+}

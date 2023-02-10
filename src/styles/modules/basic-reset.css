@@ -1,0 +1,7 @@
+@import './mixins.css';
+
+*,
+*::before,
+*::after {
+  @mixin basic-reset;
+}
