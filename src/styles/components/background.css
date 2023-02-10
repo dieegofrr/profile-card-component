@@ -11,12 +11,12 @@ main {
     pointer-events: none;
   }
 
-  .img-top {
+  .top-left-ball {
     right: 50%;
     bottom: 50%;
   }
 
-  .img-bottom {
+  .bottom-right-ball {
     left: 50%;
     top: 50%;
   }
