@@ -1,22 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
-  autoprefixer: ^10.4.13
   postcss: ^8.4.21
-  postcss-custom-media: ^9.1.2
   postcss-import: ^15.1.0
-  postcss-media-minmax: ^5.0.0
   postcss-mixins: ^9.0.4
   postcss-preset-env: ^8.0.1
   postcss-simple-vars: ^7.0.1
   vite: ^4.1.0
 
 devDependencies:
-  autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
-  postcss-custom-media: 9.1.2_postcss@8.4.21
   postcss-import: 15.1.0_postcss@8.4.21
-  postcss-media-minmax: 5.0.0_postcss@8.4.21
   postcss-mixins: 9.0.4_postcss@8.4.21
   postcss-preset-env: 8.0.1_postcss@8.4.21
   postcss-simple-vars: 7.0.1_postcss@8.4.21
