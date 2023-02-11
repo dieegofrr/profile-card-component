@@ -2,17 +2,27 @@
 
 .card {
   background-color: $white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
   border-radius: 0.875rem;
   width: min(100%, 23.375rem);
   min-height: 23.4375rem;
   overflow: hidden;
+  z-index: 1;
 
   .bg-pattern {
     height: 8.75rem;
     background-image: url('/images/bg-pattern-card.svg');
+    position: relative;
+
+    .avatar {
+      background-color: $dark-gray;
+      border: 0.3125rem solid $white;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      translate: -50% -50%;
+      width: 6.625rem;
+      height: 6.625rem;
+      border-radius: 50%;
+    }
   }
 }

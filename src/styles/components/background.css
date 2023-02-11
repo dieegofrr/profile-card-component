@@ -5,6 +5,9 @@ main {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .ball {
     position: absolute;
