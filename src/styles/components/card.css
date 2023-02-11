@@ -1,0 +1,12 @@
+@import '../modules/colors.css';
+
+.card {
+  background-color: $white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 0.875rem;
+  width: min(100%, 21.875rem);
+  min-height: 23.4375rem;
+}
