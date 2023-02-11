@@ -9,4 +9,10 @@
   border-radius: 0.875rem;
   width: min(100%, 23.375rem);
   min-height: 23.4375rem;
+  overflow: hidden;
+
+  .bg-pattern {
+    height: 8.75rem;
+    background-image: url('/images/bg-pattern-card.svg');
+  }
 }
