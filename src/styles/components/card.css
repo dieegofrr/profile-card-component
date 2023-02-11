@@ -5,6 +5,7 @@
   border-radius: 0.875rem;
   width: min(100%, 23.375rem);
   min-height: 23.4375rem;
+  margin-inline: 1.5rem;
   overflow: hidden;
   z-index: 1;
 
