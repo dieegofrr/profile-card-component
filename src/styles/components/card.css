@@ -10,8 +10,8 @@
   z-index: 1;
 
   .bg-pattern {
-    height: 8.75rem;
     background: $dark-gray url('/images/bg-pattern-card.svg');
+    height: 8.75rem;
     position: relative;
 
     .avatar {
