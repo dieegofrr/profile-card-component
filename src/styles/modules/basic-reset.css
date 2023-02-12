@@ -1,7 +1,25 @@
-@import './mixins.css';
-
 *,
 *::before,
 *::after {
-  @mixin basic-reset;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
