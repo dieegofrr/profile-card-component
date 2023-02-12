@@ -62,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 3rem;
 
     .social-info {
       display: flex;
@@ -80,6 +80,7 @@
         color: $dark-grayish-blue;
         font-size: 0.625rem;
         font-weight: 400;
+        letter-spacing: 0.15em;
       }
     }
   }
