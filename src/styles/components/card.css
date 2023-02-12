@@ -26,4 +26,30 @@
       border-radius: 50%;
     }
   }
+
+  .victor-basic-infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4.5rem;
+
+    .name-and-age {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 1.125rem;
+
+      .name {
+        font-weight: 700;
+      }
+
+      .age {
+        font-weight: 400;
+      }
+    }
+
+    .from {
+      font-size: 0.875rem;
+      font-weight: 400;
+    }
+  }
 }
