@@ -1,7 +1,7 @@
 {
   "name": "profile-card-component",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,6 @@
   "devDependencies": {
     "postcss": "^8.4.21",
     "postcss-import": "^15.1.0",
-    "postcss-mixins": "^9.0.4",
     "postcss-preset-env": "^8.0.1",
     "postcss-simple-vars": "^7.0.1",
     "vite": "^4.1.0"
