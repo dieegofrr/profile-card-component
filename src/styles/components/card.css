@@ -11,7 +11,7 @@
 
   .bg-pattern {
     height: 8.75rem;
-    background-image: url('/images/bg-pattern-card.svg');
+    background: $dark-gray url('/images/bg-pattern-card.svg');
     position: relative;
 
     .avatar {
