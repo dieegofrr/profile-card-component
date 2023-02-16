@@ -1,10 +1,13 @@
 @import '../modules/colors.css';
 
 .attribution {
-  position: absolute;
-  bottom: 3rem;
-
   p {
-    color: $very-dark-desaturated-blue;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+
+    a {
+      color: inherit;
+      font-weight: 700;
+    }
   }
 }

@@ -2,12 +2,8 @@
 
 main {
   background-color: $dark-cyan;
-  min-height: 100vh;
   position: relative;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   .ball {
     position: absolute;
@@ -22,5 +18,15 @@ main {
   .bottom-right-ball {
     left: 50%;
     top: 50%;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    min-height: 100vh;
   }
 }

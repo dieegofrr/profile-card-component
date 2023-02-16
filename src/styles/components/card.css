@@ -5,9 +5,9 @@
   border-radius: 0.875rem;
   width: min(100%, 21.875rem);
   min-height: 23.375rem;
-  margin-inline: 1.5rem;
   overflow: hidden;
   z-index: 1;
+  margin-top: 1.5rem;
 
   .bg-pattern {
     background: $dark-gray url('/images/bg-pattern-card.svg');
