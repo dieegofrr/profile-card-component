@@ -1,0 +1,10 @@
+@import '../modules/colors.css';
+
+.attribution {
+  position: absolute;
+  bottom: 3rem;
+
+  p {
+    color: $very-dark-desaturated-blue;
+  }
+}
