@@ -2,7 +2,7 @@
 
 .attribution {
   p {
-    color: hsl(0, 0%, 0%);
+    color: $black;
     text-align: center;
 
     a {
