@@ -1,13 +1,12 @@
 @import '../modules/colors.css';
 
 .attribution {
-  p {
-    color: $black;
-    text-align: center;
+  font-style: normal;
+  color: $black;
+  text-align: center;
 
-    a {
-      color: inherit;
-      font-weight: 700;
-    }
+  a {
+    color: inherit;
+    font-weight: 700;
   }
 }
