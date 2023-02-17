@@ -1,24 +1,12 @@
 @import '../modules/colors.css';
 
-main {
+body {
   background-color: $dark-cyan;
-  position: relative;
-  overflow: hidden;
-
-  .ball {
-    position: absolute;
-    pointer-events: none;
-  }
-
-  .top-left-ball {
-    right: 50%;
-    bottom: 50%;
-  }
-
-  .bottom-right-ball {
-    left: 50%;
-    top: 50%;
-  }
+  background-image: url('/images/bg-pattern-top.svg'),
+    url('/images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -17.75rem top -31.875rem,
+    right -14.375rem bottom -39.625rem;
 
   .content {
     display: flex;
