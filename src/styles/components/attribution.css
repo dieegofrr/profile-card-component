@@ -1,8 +1,8 @@
 @import '../modules/colors.css';
 
 .attribution {
-  font-style: normal;
   color: $black;
+  font-style: normal;
   text-align: center;
 
   a {
