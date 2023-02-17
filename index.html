@@ -37,12 +37,11 @@
         <article class="card">
           <!-- Background with avatar -->
           <div class="bg-pattern">
-            <img
-              src="/images/image-victor.webp"
-              loading="lazy"
-              class="avatar"
-              alt="Avatar"
-            />
+            <picture class="avatar">
+              <source srcset="/images/image-victor.avif" type="image/avif" />
+              <source srcset="/images/image-victor.webp" type="image/webp" />
+              <img src="/images/image-victor.jpg" alt="Avatar" loading="lazy" />
+            </picture>
           </div>
           <!-- Background with avatar -->
           <!-- Name, age and where from -->

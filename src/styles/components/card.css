@@ -18,6 +18,7 @@
       background-color: $dark-gray;
       border: 0.3125rem solid $white;
       position: absolute;
+      overflow: hidden;
       top: 100%;
       left: 50%;
       translate: -50% -50%;
