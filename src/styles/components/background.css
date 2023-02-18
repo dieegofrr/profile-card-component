@@ -1,12 +1,17 @@
 @import '../modules/colors.css';
 
+@custom-media --smaller-than-tablet (width > 47.8125rem);
+
 body {
   background-color: $dark-cyan;
-  background-image: url('/images/bg-pattern-top.svg'),
-    url('/images/bg-pattern-bottom.svg');
-  background-repeat: no-repeat, no-repeat;
-  background-position: left -17.75rem top -31.875rem,
-    right -14.375rem bottom -39.625rem;
+
+  @media (--smaller-than-tablet) {
+    background-image: url('/images/bg-pattern-top.svg'),
+      url('/images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -17.75rem top -31.875rem,
+      right -14.375rem bottom -39.625rem;
+  }
 
   .content {
     display: flex;
