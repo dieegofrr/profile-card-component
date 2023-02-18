@@ -1,6 +1,14 @@
 {
   "name": "profile-card-component",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Diego Ferreira",
+    "url": "https://github.com/dieegofrr/"
+  },
+  "description": "Frontend Mentor - Profile card component",
+  "repository": {
+    "url": "https://github.com/dieegofrr/profile-card-component"
+  },
   "version": "1.0.0",
   "type": "module",
   "scripts": {
