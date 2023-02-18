@@ -6,8 +6,7 @@
   width: min(100%, 21.875rem);
   min-height: 23.375rem;
   overflow: hidden;
-  z-index: 1;
-  margin-top: 1.5rem;
+  margin-top: 4.5rem;
 
   .bg-pattern {
     background: $dark-gray url('/images/bg-pattern-card.svg');
@@ -25,7 +24,7 @@
       border-radius: 50%;
 
       img {
-        height: 6.625rem;
+        height: 6rem;
         aspect-ratio: 1/1;
         object-fit: cover;
       }
@@ -36,11 +35,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-block: 4.5rem 1.5rem;
+    margin-block: 4.4rem 1.3rem;
 
     .name-and-age {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.6rem;
       font-size: 1.125rem;
 
       .name {
@@ -58,22 +57,27 @@
       color: $dark-grayish-blue;
       font-size: 0.875rem;
       font-weight: 400;
+      margin-top: 0.3rem;
     }
   }
 
   .victor-social-infos {
-    box-shadow: 0 0.0625rem 0 0 $dark-gray-50 inset;
+    box-shadow: 0 0.125rem 0 0 $dark-gray-50 inset;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 0.5rem;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 3.4rem 1.5rem 3rem;
 
     .social-info {
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      &:nth-child(2) {
+        margin-right: 0.5rem;
+      }
 
       .number {
         color: $very-dark-desaturated-blue;
@@ -86,6 +90,8 @@
         font-size: 0.625rem;
         font-weight: 400;
         letter-spacing: 0.15em;
+        margin-top: 0.0625rem;
+        margin-right: 0.0625rem;
       }
     }
   }
