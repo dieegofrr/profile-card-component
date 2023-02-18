@@ -9,7 +9,7 @@
   margin-top: 4.5rem;
 
   .bg-pattern {
-    background: $dark-gray url('/images/bg-pattern-card.svg');
+    background: $dark-gray url('/images/bg-card.svg');
     height: 8.75rem;
     position: relative;
 

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Kumbh Sans';
-  src: url('/fonts/KumbhSans-Regular.woff2') format('woff2'),
-    url('/fonts/KumbhSans-Regular.woff') format('woff');
+  src: url('/fonts/KS-400.woff2') format('woff2'),
+    url('/fonts/KS-400.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Kumbh Sans';
-  src: url('/fonts/KumbhSans-Bold.woff2') format('woff2'),
-    url('/fonts/KumbhSans-Bold.woff') format('woff');
+  src: url('/fonts/KS-700.woff2') format('woff2'),
+    url('/fonts/KS-700.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

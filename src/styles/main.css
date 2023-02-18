@@ -1,4 +1,4 @@
-@import './modules/basic-reset.css';
+@import './modules/reset.css';
 @import './components/background.css';
 @import './components/card.css';
 @import './components/attribution.css';

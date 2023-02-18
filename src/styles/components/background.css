@@ -6,8 +6,8 @@ body {
   background-color: $dark-cyan;
 
   @media (--smaller-than-tablet) {
-    background-image: url('/images/bg-pattern-top.svg'),
-      url('/images/bg-pattern-bottom.svg');
+    background-image: url('/images/ball-left-top.svg'),
+      url('/images/ball-right-bottom.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: left -17.75rem top -31.875rem,
       right -14.375rem bottom -39.625rem;
