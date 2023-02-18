@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     min-height: 100vh;
   }
 }
