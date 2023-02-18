@@ -5,7 +5,7 @@
   font-style: normal;
   text-align: center;
 
-  a {
+  .link {
     color: inherit;
     font-weight: 700;
   }

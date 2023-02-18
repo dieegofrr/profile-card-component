@@ -23,7 +23,7 @@
       translate: -50% -50%;
       border-radius: 50%;
 
-      img {
+      .avatar-profile {
         height: 6rem;
         aspect-ratio: 1/1;
         object-fit: cover;

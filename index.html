@@ -17,6 +17,17 @@
     <title>Profile Card Component</title>
   </head>
   <body>
+    <img
+      src="/design/desktop-design.jpg"
+      alt=""
+      style="
+        position: absolute;
+        width: 1440px;
+        height: 720px;
+        opacity: 0.5;
+        z-index: 999;
+      "
+    />
     <main class="content">
       <!-- Card -->
       <article class="card">
@@ -25,7 +36,12 @@
           <picture class="avatar">
             <source srcset="/images/image-victor.avif" type="image/avif" />
             <source srcset="/images/image-victor.webp" type="image/webp" />
-            <img src="/images/image-victor.jpg" alt="Avatar" loading="lazy" />
+            <img
+              src="/images/image-victor.jpg"
+              alt="Avatar"
+              loading="lazy"
+              class="avatar-profile"
+            />
           </picture>
         </div>
         <!-- Background with avatar -->
@@ -64,6 +80,7 @@
           target="_blank"
           aria-label="See the challenge."
           title="See the challenge."
+          class="link"
           >Frontend Mentor</a
         >.
         <br />
@@ -73,6 +90,7 @@
           target="_blank"
           aria-label="See my GitHub."
           title="See my GitHub."
+          class="link"
           >Diego Ferreira</a
         >. See the code
         <a
@@ -80,7 +98,8 @@
           target="_blank"
           aria-label="See the code."
           title="See the code."
-          >by clicking here</a
+          class="link"
+          >right here</a
         >!
       </address>
       <!-- Attribution -->
